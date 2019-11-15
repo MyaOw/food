@@ -1,0 +1,395 @@
+// Place all the styles related to the Welcome controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+@font-face {
+  font-family: 'CapsuulaRegular';
+  font-display: auto;
+  font-style: normal;
+  font-weight: normal;
+  src: local('CapsuulaRegular'), url('fonts/Capsuula.woff') format('woff');
+}
+
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.9em;
+}
+
+h1 { 
+  font-weight: normal;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+  font-weight: normal;
+  
+}
+
+ul {
+  float: right;
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+li {
+  display: inline-block;
+  padding-left: 1em;
+  font-size: 1.3em;
+}
+
+/* Font awesome */
+
+.icon {
+  color: beige;
+}
+
+/* Header */
+
+#brownbar {
+  position: relative;
+  background-color: #3ea8a8;
+  min-height: 50px;
+  margin-bottom: 20px;
+  border-bottom: 6px solid #554334;
+}
+
+/* Container */
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+
+/* Infos */
+
+@media (min-width: 768px) {
+  #infos {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    margin-bottom: 50px;
+  }
+  
+  #photo {
+    max-width: 12%;
+    margin-bottom: -4px;
+  }
+  
+  #photo img {
+    width: 100%;
+    height: auto;
+  }
+  
+  #labels {
+    width: 65%;
+  }
+  
+  #name {
+    margin: 0;
+    width: 50%;
+    font-size: 2em;
+    padding: 5px;
+    background: #554334;
+    color: beige;
+  }
+  
+  #job {
+    margin: 0;
+    width: 30%;
+    font-size: 1.5em;
+    padding: 5px;
+    background: #3ea8a8;
+    color: beige;
+    font-family: 'CapsuulaRegular';
+  }
+  
+  #leftinfo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+  }
+  
+  #contact p {
+    margin: 15px 0 0 0;
+    padding: 0;
+  }
+  
+  .contacticons {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  #infos {
+    margin-bottom: 50px;
+  }
+  
+  #photo {
+    display: none;
+  }
+  
+  #labels {
+    width: 100%;
+  }
+  
+  #name {
+    margin: 0;
+    font-size: 2em;
+    padding: 5px;
+    color: #554334;
+  }
+  
+  #job {
+    margin: 0;
+    font-size: 1.8em;
+    padding: 5px;
+    color: #3ea8a8;
+    font-family: 'CapsuulaRegular';
+  }
+  
+  #contact {
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  .contactline {
+    display: none;
+  }
+  
+  .contacticons {
+    margin: 0 0 0 15px;
+  }
+}
+
+/* Main */
+
+.title {
+  color: #e23571;
+  width: 100%;
+  font-size: 1.1em;
+  margin-top: 45px;
+}
+
+.title h3 {
+  border-bottom: 2px dotted #e23571;
+  letter-spacing: .2rem;
+}
+
+/* About */
+
+.abouttext {
+  text-align: justify;
+}
+
+/* Columns */
+
+@media (min-width: 768px) {
+  #containercv {
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  #leftcolumn {
+    width: 70%;
+    margin-right: 25px;
+  }
+  
+  #rightcolumn {
+    width: 30%;
+  }
+}
+
+@media (max-width: 768px) {
+  
+  #leftcolumn {
+    width: 100%;
+  }
+  
+  #rightcolumn {
+    width: 100%;
+  }
+}
+
+/* Formation */
+.formation {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  border-bottom: 2px dotted #e23571;
+  margin-bottom: 10px;
+}
+
+.datef {
+  width: 10%;
+  color: #3ea8a8;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.forma {
+  margin: 0 0 10px 10px;
+}
+
+.school {
+  margin: 0;
+  font-weight: 700;
+}
+
+.diploma {
+  margin: 0;
+}
+
+/* Competences */
+
+@media (min-width: 768px) {
+  #competences {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  .bloccomp {
+    width: 49%;
+  }
+}
+
+@media (max-width: 768px) {
+  #competences {
+    display: inline-block;
+    width: 100%;
+  }
+  
+  .bloccomp {
+    width: 100%;
+  }
+}
+
+.comp {
+  border-bottom: 2px dotted #e23571;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+/* Projets */
+
+@media (min-width: 768px) {
+  #projets {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+  .blocprojet {
+    width: 49%;
+  }
+}
+
+@media (max-width: 768px) {
+  #projets {
+    display: inline-block;
+    width: 100%;
+  }
+  
+  .blocprojet {
+    width: 100%;
+  }
+}
+
+.intituleprojet {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;  
+}
+
+.logoprojet {
+  width: 15%;
+  height: 45px;
+  background-image: url("../img/ruby.png");
+  background-repeat: no-repeat;
+}
+
+.titreprojet p {
+  margin: 0;
+  padding: 0;
+}
+
+.descprojet {
+  margin: 0;
+  padding: 0;
+}
+
+/* Experience */
+
+.experience {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.arrow {
+  color: beige;
+  padding-left: 5px;
+  display: flex;
+  align-items: center;
+  width: 20%;
+  height: 30px;
+  background-image: url("../img/arrow.png");
+  background-repeat: no-repeat;
+}
+
+.dotbar {
+  margin: 3px 0 0 10px;
+  width: 10%;
+  height: 130px;
+  background-image: url("../img/dot.png");
+  background-repeat: no-repeat;
+}
+
+.dotbarsm {
+  color: beige;
+  margin: 3px 0 0 10px;
+  display: flex;
+  align-items: center;
+  width: 10%;
+  height: 80px;
+  background-image: url("../img/dot.png");
+  background-repeat: no-repeat;
+}
+
+.exp p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Footer */
+
+#bluebar {
+  background-color: #554334;
+  min-height: 50px;
+  margin-top: 20px;
+  border-top: 6px solid #3ea8a8;
+}

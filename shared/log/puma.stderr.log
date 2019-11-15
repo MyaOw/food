@@ -1,0 +1,138 @@
+=== puma startup: 2019-11-15 20:31:02 +0100 ===
+2019-11-15 20:31:20 +0100: HTTP parse error, malformed request (): #<Puma::HttpParserError: Invalid HTTP format, parsing fails.>
+---
+=== puma startup: 2019-11-15 21:07:26 +0100 ===
+=== puma startup: 2019-11-15 21:08:24 +0100 ===
+=== puma startup: 2019-11-15 21:14:52 +0100 ===
+=== puma startup: 2019-11-15 21:18:27 +0100 ===
+=== puma startup: 2019-11-15 21:22:51 +0100 ===
+=== puma startup: 2019-11-15 21:30:00 +0100 ===
+=== puma startup: 2019-11-15 21:40:40 +0100 ===
+=== puma startup: 2019-11-15 21:40:40 +0100 ===
+=== puma startup: 2019-11-15 21:40:40 +0100 ===
+=== puma startup: 2019-11-15 21:40:40 +0100 ===
+=== puma startup: 2019-11-15 21:43:11 +0100 ===
+=== puma startup: 2019-11-15 21:47:59 +0100 ===
+/home/mya/.rvm/gems/ruby-2.6.3/gems/puma-4.3.0/lib/puma/state_file.rb:12:in `write': Permission denied @ rb_sysopen - /var/www/food/shared/pids/puma.state (Errno::EACCES)
+	from /home/mya/.rvm/gems/ruby-2.6.3/gems/puma-4.3.0/lib/puma/state_file.rb:12:in `save'
+	from /home/mya/.rvm/gems/ruby-2.6.3/gems/puma-4.3.0/lib/puma/launcher.rb:117:in `write_state'
+	from /home/mya/.rvm/gems/ruby-2.6.3/gems/puma-4.3.0/lib/puma/cluster.rb:461:in `run'
+	from /home/mya/.rvm/gems/ruby-2.6.3/gems/puma-4.3.0/lib/puma/launcher.rb:172:in `run'
+	from /home/mya/.rvm/gems/ruby-2.6.3/gems/puma-4.3.0/lib/puma/cli.rb:80:in `run'
+	from /home/mya/.rvm/gems/ruby-2.6.3/gems/puma-4.3.0/bin/puma:10:in `<top (required)>'
+	from /home/mya/.rvm/gems/ruby-2.6.3/bin/puma:23:in `load'
+	from /home/mya/.rvm/gems/ruby-2.6.3/bin/puma:23:in `<main>'
+	from /home/mya/.rvm/gems/ruby-2.6.3/bin/ruby_executable_hooks:24:in `eval'
+	from /home/mya/.rvm/gems/ruby-2.6.3/bin/ruby_executable_hooks:24:in `<main>'
+=== puma startup: 2019-11-15 21:51:42 +0100 ===
+/home/mya/.rvm/gems/ruby-2.6.3/gems/puma-4.3.0/lib/puma/state_file.rb:12:in `write': Permission denied @ rb_sysopen - /var/www/food/shared/pids/puma.state (Errno::EACCES)
+	from /home/mya/.rvm/gems/ruby-2.6.3/gems/puma-4.3.0/lib/puma/state_file.rb:12:in `save'
+	from /home/mya/.rvm/gems/ruby-2.6.3/gems/puma-4.3.0/lib/puma/launcher.rb:117:in `write_state'
+	from /home/mya/.rvm/gems/ruby-2.6.3/gems/puma-4.3.0/lib/puma/cluster.rb:461:in `run'
+	from /home/mya/.rvm/gems/ruby-2.6.3/gems/puma-4.3.0/lib/puma/launcher.rb:172:in `run'
+	from /home/mya/.rvm/gems/ruby-2.6.3/gems/puma-4.3.0/lib/puma/cli.rb:80:in `run'
+	from /home/mya/.rvm/gems/ruby-2.6.3/gems/puma-4.3.0/bin/puma:10:in `<top (required)>'
+	from /home/mya/.rvm/gems/ruby-2.6.3/bin/puma:23:in `load'
+	from /home/mya/.rvm/gems/ruby-2.6.3/bin/puma:23:in `<main>'
+	from /home/mya/.rvm/gems/ruby-2.6.3/bin/ruby_executable_hooks:24:in `eval'
+	from /home/mya/.rvm/gems/ruby-2.6.3/bin/ruby_executable_hooks:24:in `<main>'
+=== puma startup: 2019-11-15 21:53:16 +0100 ===
+/home/mya/.rvm/gems/ruby-2.6.3/gems/puma-4.3.0/lib/puma/state_file.rb:12:in `write': Permission denied @ rb_sysopen - /var/www/food/shared/pids/puma.state (Errno::EACCES)
+	from /home/mya/.rvm/gems/ruby-2.6.3/gems/puma-4.3.0/lib/puma/state_file.rb:12:in `save'
+	from /home/mya/.rvm/gems/ruby-2.6.3/gems/puma-4.3.0/lib/puma/launcher.rb:117:in `write_state'
+	from /home/mya/.rvm/gems/ruby-2.6.3/gems/puma-4.3.0/lib/puma/cluster.rb:461:in `run'
+	from /home/mya/.rvm/gems/ruby-2.6.3/gems/puma-4.3.0/lib/puma/launcher.rb:172:in `run'
+	from /home/mya/.rvm/gems/ruby-2.6.3/gems/puma-4.3.0/lib/puma/cli.rb:80:in `run'
+	from /home/mya/.rvm/gems/ruby-2.6.3/gems/puma-4.3.0/bin/puma:10:in `<top (required)>'
+	from /home/mya/.rvm/gems/ruby-2.6.3/bin/puma:23:in `load'
+	from /home/mya/.rvm/gems/ruby-2.6.3/bin/puma:23:in `<main>'
+	from /home/mya/.rvm/gems/ruby-2.6.3/bin/ruby_executable_hooks:24:in `eval'
+	from /home/mya/.rvm/gems/ruby-2.6.3/bin/ruby_executable_hooks:24:in `<main>'
+=== puma startup: 2019-11-15 21:55:22 +0100 ===
+/home/mya/.rvm/gems/ruby-2.6.3/gems/puma-4.3.0/lib/puma/state_file.rb:12:in `write': Permission denied @ rb_sysopen - /var/www/food/shared/pids/puma.state (Errno::EACCES)
+	from /home/mya/.rvm/gems/ruby-2.6.3/gems/puma-4.3.0/lib/puma/state_file.rb:12:in `save'
+	from /home/mya/.rvm/gems/ruby-2.6.3/gems/puma-4.3.0/lib/puma/launcher.rb:117:in `write_state'
+	from /home/mya/.rvm/gems/ruby-2.6.3/gems/puma-4.3.0/lib/puma/cluster.rb:461:in `run'
+	from /home/mya/.rvm/gems/ruby-2.6.3/gems/puma-4.3.0/lib/puma/launcher.rb:172:in `run'
+	from /home/mya/.rvm/gems/ruby-2.6.3/gems/puma-4.3.0/lib/puma/cli.rb:80:in `run'
+	from /home/mya/.rvm/gems/ruby-2.6.3/gems/puma-4.3.0/bin/puma:10:in `<top (required)>'
+	from /home/mya/.rvm/gems/ruby-2.6.3/bin/puma:23:in `load'
+	from /home/mya/.rvm/gems/ruby-2.6.3/bin/puma:23:in `<main>'
+	from /home/mya/.rvm/gems/ruby-2.6.3/bin/ruby_executable_hooks:24:in `eval'
+	from /home/mya/.rvm/gems/ruby-2.6.3/bin/ruby_executable_hooks:24:in `<main>'
+=== puma startup: 2019-11-15 22:05:48 +0100 ===
+/home/mya/.rvm/gems/ruby-2.6.3/gems/puma-4.3.0/lib/puma/state_file.rb:12:in `write': Permission denied @ rb_sysopen - /var/www/food/shared/pids/puma.state (Errno::EACCES)
+	from /home/mya/.rvm/gems/ruby-2.6.3/gems/puma-4.3.0/lib/puma/state_file.rb:12:in `save'
+	from /home/mya/.rvm/gems/ruby-2.6.3/gems/puma-4.3.0/lib/puma/launcher.rb:117:in `write_state'
+	from /home/mya/.rvm/gems/ruby-2.6.3/gems/puma-4.3.0/lib/puma/cluster.rb:461:in `run'
+	from /home/mya/.rvm/gems/ruby-2.6.3/gems/puma-4.3.0/lib/puma/launcher.rb:172:in `run'
+	from /home/mya/.rvm/gems/ruby-2.6.3/gems/puma-4.3.0/lib/puma/cli.rb:80:in `run'
+	from /home/mya/.rvm/gems/ruby-2.6.3/gems/puma-4.3.0/bin/puma:10:in `<top (required)>'
+	from /home/mya/.rvm/gems/ruby-2.6.3/bin/puma:23:in `load'
+	from /home/mya/.rvm/gems/ruby-2.6.3/bin/puma:23:in `<main>'
+	from /home/mya/.rvm/gems/ruby-2.6.3/bin/ruby_executable_hooks:24:in `eval'
+	from /home/mya/.rvm/gems/ruby-2.6.3/bin/ruby_executable_hooks:24:in `<main>'
+=== puma startup: 2019-11-15 22:07:39 +0100 ===
+/home/mya/.rvm/gems/ruby-2.6.3/gems/puma-4.3.0/lib/puma/state_file.rb:12:in `write': Permission denied @ rb_sysopen - /var/www/food/shared/pids/puma.state (Errno::EACCES)
+	from /home/mya/.rvm/gems/ruby-2.6.3/gems/puma-4.3.0/lib/puma/state_file.rb:12:in `save'
+	from /home/mya/.rvm/gems/ruby-2.6.3/gems/puma-4.3.0/lib/puma/launcher.rb:117:in `write_state'
+	from /home/mya/.rvm/gems/ruby-2.6.3/gems/puma-4.3.0/lib/puma/cluster.rb:461:in `run'
+	from /home/mya/.rvm/gems/ruby-2.6.3/gems/puma-4.3.0/lib/puma/launcher.rb:172:in `run'
+	from /home/mya/.rvm/gems/ruby-2.6.3/gems/puma-4.3.0/lib/puma/cli.rb:80:in `run'
+	from /home/mya/.rvm/gems/ruby-2.6.3/gems/puma-4.3.0/bin/puma:10:in `<top (required)>'
+	from /home/mya/.rvm/gems/ruby-2.6.3/bin/puma:23:in `load'
+	from /home/mya/.rvm/gems/ruby-2.6.3/bin/puma:23:in `<main>'
+	from /home/mya/.rvm/gems/ruby-2.6.3/bin/ruby_executable_hooks:24:in `eval'
+	from /home/mya/.rvm/gems/ruby-2.6.3/bin/ruby_executable_hooks:24:in `<main>'
+=== puma startup: 2019-11-15 22:12:54 +0100 ===
+/home/mya/.rvm/gems/ruby-2.6.3/gems/puma-4.3.0/lib/puma/state_file.rb:12:in `write': Permission denied @ rb_sysopen - /var/www/food/shared/pids/puma.state (Errno::EACCES)
+	from /home/mya/.rvm/gems/ruby-2.6.3/gems/puma-4.3.0/lib/puma/state_file.rb:12:in `save'
+	from /home/mya/.rvm/gems/ruby-2.6.3/gems/puma-4.3.0/lib/puma/launcher.rb:117:in `write_state'
+	from /home/mya/.rvm/gems/ruby-2.6.3/gems/puma-4.3.0/lib/puma/cluster.rb:461:in `run'
+	from /home/mya/.rvm/gems/ruby-2.6.3/gems/puma-4.3.0/lib/puma/launcher.rb:172:in `run'
+	from /home/mya/.rvm/gems/ruby-2.6.3/gems/puma-4.3.0/lib/puma/cli.rb:80:in `run'
+	from /home/mya/.rvm/gems/ruby-2.6.3/gems/puma-4.3.0/bin/puma:10:in `<top (required)>'
+	from /home/mya/.rvm/gems/ruby-2.6.3/bin/puma:23:in `load'
+	from /home/mya/.rvm/gems/ruby-2.6.3/bin/puma:23:in `<main>'
+	from /home/mya/.rvm/gems/ruby-2.6.3/bin/ruby_executable_hooks:24:in `eval'
+	from /home/mya/.rvm/gems/ruby-2.6.3/bin/ruby_executable_hooks:24:in `<main>'
+=== puma startup: 2019-11-15 22:13:00 +0100 ===
+/home/mya/.rvm/gems/ruby-2.6.3/gems/puma-4.3.0/lib/puma/state_file.rb:12:in `write': Permission denied @ rb_sysopen - /var/www/food/shared/pids/puma.state (Errno::EACCES)
+	from /home/mya/.rvm/gems/ruby-2.6.3/gems/puma-4.3.0/lib/puma/state_file.rb:12:in `save'
+	from /home/mya/.rvm/gems/ruby-2.6.3/gems/puma-4.3.0/lib/puma/launcher.rb:117:in `write_state'
+	from /home/mya/.rvm/gems/ruby-2.6.3/gems/puma-4.3.0/lib/puma/cluster.rb:461:in `run'
+	from /home/mya/.rvm/gems/ruby-2.6.3/gems/puma-4.3.0/lib/puma/launcher.rb:172:in `run'
+	from /home/mya/.rvm/gems/ruby-2.6.3/gems/puma-4.3.0/lib/puma/cli.rb:80:in `run'
+	from /home/mya/.rvm/gems/ruby-2.6.3/gems/puma-4.3.0/bin/puma:10:in `<top (required)>'
+	from /home/mya/.rvm/gems/ruby-2.6.3/bin/puma:23:in `load'
+	from /home/mya/.rvm/gems/ruby-2.6.3/bin/puma:23:in `<main>'
+	from /home/mya/.rvm/gems/ruby-2.6.3/bin/ruby_executable_hooks:24:in `eval'
+	from /home/mya/.rvm/gems/ruby-2.6.3/bin/ruby_executable_hooks:24:in `<main>'
+=== puma startup: 2019-11-15 22:13:23 +0100 ===
+=== puma startup: 2019-11-15 22:14:23 +0100 ===
+=== puma startup: 2019-11-15 22:18:57 +0100 ===
+=== puma startup: 2019-11-15 22:39:43 +0100 ===
+=== puma startup: 2019-11-15 22:40:52 +0100 ===
+=== puma startup: 2019-11-15 22:42:35 +0100 ===
+=== puma startup: 2019-11-15 22:44:09 +0100 ===
+=== puma startup: 2019-11-15 22:46:24 +0100 ===
+=== puma startup: 2019-11-15 22:47:40 +0100 ===
+=== puma startup: 2019-11-15 22:50:23 +0100 ===
+=== puma startup: 2019-11-15 22:51:02 +0100 ===
+=== puma startup: 2019-11-15 22:56:10 +0100 ===
+=== puma startup: 2019-11-15 22:59:50 +0100 ===
+=== puma startup: 2019-11-15 23:03:28 +0100 ===
+=== puma startup: 2019-11-15 23:05:01 +0100 ===
+=== puma startup: 2019-11-15 23:05:58 +0100 ===
+=== puma startup: 2019-11-15 23:07:19 +0100 ===
+=== puma startup: 2019-11-15 23:15:19 +0100 ===
+=== puma startup: 2019-11-15 23:18:20 +0100 ===
+=== puma startup: 2019-11-15 23:19:48 +0100 ===
+=== puma startup: 2019-11-15 23:20:32 +0100 ===
+=== puma startup: 2019-11-15 23:22:21 +0100 ===
+=== puma startup: 2019-11-15 23:38:07 +0100 ===
+=== puma startup: 2019-11-15 23:39:06 +0100 ===
+=== puma startup: 2019-11-15 23:40:26 +0100 ===
+=== puma startup: 2019-11-15 23:45:26 +0100 ===
+=== puma startup: 2019-11-15 23:48:53 +0100 ===
+=== puma startup: 2019-11-15 23:49:47 +0100 ===
